@@ -34,6 +34,8 @@ const attackTwo = {
     name: "2 : lightHeal",
     power: -15,
     accuracy: 3
+    if (hp > 100 ){
+    hp = 100
 }
 const attackThree = {
     name: "3 : heavyAttack",
